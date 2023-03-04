@@ -172,7 +172,7 @@ public class WriteLoops {
         int w = 0;
         int highestScore = 236;
         int currentScore = gameNextScore();
-        int runningScore = 1;
+        int runningScore = 0;
         while(runningScore<=highestScore){
             runningScore += currentScore;
             currentScore = gameNextScore();
